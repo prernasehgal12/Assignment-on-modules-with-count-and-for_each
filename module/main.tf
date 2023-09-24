@@ -13,8 +13,6 @@ module "ec2" {
 module "s3" {
   source = "../s3"
   count = 2
-
-  
   bucket = var.bucket[count.index]
   purpose = var.purpose[0]
   owner = var.owner[0]
