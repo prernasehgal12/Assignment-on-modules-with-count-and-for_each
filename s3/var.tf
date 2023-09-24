@@ -14,3 +14,7 @@ variable "environment" {
   type        = string
   
 }
+variable "purpose" {
+  type        = string
+  
+}
